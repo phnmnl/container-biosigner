@@ -106,3 +106,9 @@ Use AMA style publications as a list (you can export AMA from PubMed, on the For
 -->
 
 - TODO
+ - Determan C. (2015). Optimal algorithm for metabolomics classification and feature selection varies by dataset. International *Journal of Biology* 7, 100-115.
+ - Gromski P.S., Xu Y., Correa E., Ellis D.I., Turner M.L. and Goodacre R. (2014). A comparative investigation of modern feature selection and classification approaches for the analysis of mass spectrometry data . *Analytica Chimica Acta* 829, 1-8.
+ - Guyon I. and Elisseeff A. (2003). An introduction to variable and feature selection. *Journal of Machine Learning Research* 3, 1157-1182.
+ - Rifai N., Gillette M.A. and Carr S.A. (2006). Protein biomarker discovery and validation: the long and uncertain path to clinical utility. *Nature Biotechnology* 24, 971-983.
+ - Rinaudo P., Junot C. and Thevenot E.A. *biosigner*: A new method for the discovery of restricted and stable molecular signatures from omics data. *submitted*.
+ - Saeys Y., Inza I. and Larranaga P. (2007). A review of feature selection techniques in bioinformatics. *Bioinformatics* 23, 2507-2517.
