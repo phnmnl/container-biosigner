@@ -52,24 +52,30 @@ High-throughput technologies such as transcriptomics, proteomics, and metabolomi
 
 ## Key features
 
-- Omics signatures.
+- Feature selection
+- PLS-DA
+- Random Forest
+- SVM
 
 ## Metabolomics Technologies
 
-- Omics
+- LC-MS
+- GC-MS
+- NMR
 
 ## Data Analysis
 
-- Statistics.
+- Classification
+- Feature selection
+- Multivariate statistics
 
 ## Screenshots
 
- TODO
+![screenshot](screenshots/biosigner.png)
 
 ## Tool Authors
 
- TODO
-- Étienne Thévenot (CEA).
+- [Étienne Thévenot](http://etiennethevenot.pagesperso-orange.fr) (CEA, LIST, MetaboHUB).
 
 ## Container Contributors
 
@@ -105,10 +111,4 @@ docker run docker-registry.phenomenal-h2020.eu/phnmnl/biosigner ...
 Use AMA style publications as a list (you can export AMA from PubMed, on the Formats: Citation link when looking at the entry).
 -->
 
-- TODO
- - Determan C. (2015). Optimal algorithm for metabolomics classification and feature selection varies by dataset. International *Journal of Biology* 7, 100-115.
- - Gromski P.S., Xu Y., Correa E., Ellis D.I., Turner M.L. and Goodacre R. (2014). A comparative investigation of modern feature selection and classification approaches for the analysis of mass spectrometry data . *Analytica Chimica Acta* 829, 1-8.
- - Guyon I. and Elisseeff A. (2003). An introduction to variable and feature selection. *Journal of Machine Learning Research* 3, 1157-1182.
- - Rifai N., Gillette M.A. and Carr S.A. (2006). Protein biomarker discovery and validation: the long and uncertain path to clinical utility. *Nature Biotechnology* 24, 971-983.
- - Rinaudo P., Junot C. and Thevenot E.A. *biosigner*: A new method for the discovery of restricted and stable molecular signatures from omics data. *submitted*.
- - Saeys Y., Inza I. and Larranaga P. (2007). A review of feature selection techniques in bioinformatics. *Bioinformatics* 23, 2507-2517.
+- Rinaudo P, Boudah S, Junot C, Thévenot EA. biosigner: A New Method for the Discovery of Significant Molecular Signatures from Omics Data. Front Mol Biosci. 2016;3:26.
