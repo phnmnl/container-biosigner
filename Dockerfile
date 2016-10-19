@@ -9,7 +9,7 @@ RUN echo "deb http://cran.rstudio.com/bin/linux/ubuntu xenial/" >> /etc/apt/sour
 # Update, install software and clean on same line, for slimmer image.
 RUN apt-get update && \
     apt-get install -y --no-install-recommends r-base r-base-dev git && \
-    git clone -b docker https://github.com/workflow4metabolomics/biosigner /files2/biosigner && \
+    git clone -b 2.2.6 https://github.com/workflow4metabolomics/biosigner /files2/biosigner && \
     mkdir -p /files/biosigner && \
     cp /files2/biosigner/biosigner_wrapper.R /files/biosigner/ && rm -rf /files2/biosigner && \
     echo 'options("repos"="http://cran.rstudio.com")' >> /etc/R/Rprofile.site && \
