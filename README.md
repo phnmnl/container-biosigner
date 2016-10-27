@@ -57,6 +57,15 @@ High-throughput technologies such as transcriptomics, proteomics, and metabolomi
 - Random Forest
 - SVM
 
+## Functionality
+
+- Statistical Analysis
+
+## Approaches
+
+- Metabolomics / Targeted
+- Metabolomics / Untargeted
+
 ## Metabolomics Technologies
 
 - LC-MS
