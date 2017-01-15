@@ -15,13 +15,13 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
 # Update system
 RUN apt-get update
 RUN apt-get -y upgrade
-RUN apt-get install -y --no-install-recommends r-base git make g++
+RUN apt-get install -y --no-install-recommends r-base git make g++ gfortran
 
 # Clone tool repos
 RUN git clone -b v${TOOL_VERSION} https://github.com/workflow4metabolomics/biosigner /files/biosigner
 
 # Install requirements
-RUN R -e "install.packages('batch', lib='/usr/lib/R/library', dependencies = TRUE, repos='http://mirrors.ebi.ac.uk/CRAN')"
+RUN R -e "install.packages(c('batch', 'randomForest'), lib='/usr/lib/R/library', dependencies = TRUE, repos='https://cran.rstudio.com')"
 RUN R -e "source('http://bioconductor.org/biocLite.R') ; biocLite('biosigner')"
 
 # Clean
