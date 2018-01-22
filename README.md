@@ -33,17 +33,10 @@ High-throughput technologies such as transcriptomics, proteomics, and metabolomi
 - Metabolomics / Targeted
 - Metabolomics / Untargeted
 
-## Metabolomics Technologies
+## Instrument Data Types
 
-- LC-MS
-- GC-MS
+- MS
 - NMR
-
-## Data Analysis
-
-- Classification
-- Feature selection
-- Multivariate statistics
 
 ## Screenshots
 
