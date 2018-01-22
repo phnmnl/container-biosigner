@@ -3,7 +3,7 @@
 ![Logo](w4m.png)
 
 # W4M Biosigner
-Version: 2.2.6
+Version: 2.2.7
 
 ## Short description
 
