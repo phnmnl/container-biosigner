@@ -3,7 +3,7 @@ FROM container-registry.phenomenal-h2020.eu/phnmnl/rbase
 MAINTAINER PhenoMeNal-H2020 Project ( phenomenal-h2020-users@googlegroups.com )
 
 ENV TOOL_NAME=biosigner
-ENV TOOL_VERSION=2.2.7
+ENV TOOL_VERSION=2.2.8
 ENV CONTAINER_VERSION=1.4
 ENV CONTAINER_GITHUB=https://github.com/phnmnl/container-biosigner
 
